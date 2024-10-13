@@ -14,7 +14,7 @@ func main() {
 		return
 	}
 	command := os.Args[1]
-
+	//test
 	switch command {
 	case "help":
 		{

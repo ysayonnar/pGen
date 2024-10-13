@@ -43,9 +43,10 @@ func main() {
 			fmt.Println("~~~List of passwords~~~")
 			generator.PrintList()
 		}
-	case "delete":{
-		generator.Delete()
-	}
+	case "delete":
+		{
+			generator.Delete()
+		}
 	default:
 		{
 			fmt.Println("type help to get list of commands")
